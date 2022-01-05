@@ -1,0 +1,86 @@
+
+@media screen and (min-width: 1000px) {
+    .contact-box {
+        width: 600px;
+        height: 350px;
+    }
+    .bbox {
+        width: 600px;
+        height: 350px;
+        flex-direction: row;
+    }
+    .icon-and-information p {
+        margin-right: 20px;
+        margin-left: 20px;
+        font-weight: bold;
+    }
+    .information {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .contact-box {
+        width: 350px;
+        height: 600px;
+    }
+    .bbox {
+        width: 350px;
+        height: 600px;
+        flex-direction: column;
+    }
+    .icon-and-information p {
+        margin-right: 35px;
+        font-weight: bold;
+    }
+}
+
+.contact-box {
+    margin: 50px auto auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+}
+
+.bbox {
+    background-color: white;
+    display: flex;
+}
+
+.contact h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.text {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.marcus {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+}
+
+.icons-and-information {
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-and-information {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon-and-information .icon {
+    margin-left: 35px;
+}

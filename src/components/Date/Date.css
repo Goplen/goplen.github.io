@@ -1,0 +1,16 @@
+.date {
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.date .icon {
+    margin-left: 40px;
+}
+
+.date p {
+    text-align: right;
+    margin-right: 40px;
+    margin-left: 15px;
+}

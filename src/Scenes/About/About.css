@@ -1,0 +1,154 @@
+
+.content-boxes {
+    margin: 50px auto auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media screen and (min-width: 1000px) {
+    .content-boxes  {
+        width: 800px;
+        flex-direction: row;
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .content-boxes  {
+        width: 400px;
+        flex-direction: column;
+        height: 1200px;
+    }
+}
+
+.strike {
+    border-top: 4px solid #f6f7f1;
+    width: 70px;
+    margin: 0 auto 0;
+}
+
+.left-box {
+    width: 400px;
+    height: 600px;
+    background-color: #a1c9c9;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact{
+    width: 400px;
+    height: 60px;
+    background-color: white;
+    bottom: 0;
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.icon {
+    margin: auto;
+    width: 32px;
+    height: 32px;
+}
+
+.marcus {
+    margin: 80px auto auto;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+}
+
+.right-box {
+    text-align: left;
+    width: 400px;
+    height: 600px;
+    background-color: white;
+}
+
+.hello h1 {
+    margin-left: 20px;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.who-what h4 {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.text {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.buttons {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: flex-start;
+}
+
+.button-left {
+    background-color: #34a0a4;
+    color: white;
+    padding:0.4em 2em;
+    border:0.16em solid #34a0a4;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius:2em;
+}
+
+.button-right {
+    margin-left: 15px;
+    background-color: white;
+    color: black;
+    padding:0.4em 2em;
+    border:0.16em solid #34a0a4;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius:2em;
+}
+
+
+blockquote {
+    margin-top: 30px;
+}
+
+.buttons button:hover {
+    background-color: #a1c9c9; /* Green */
+    color: white;
+}
+
+.core-competence {
+    margin-bottom: 40px;
+}
+
+.core-competence ul {
+    width: 370px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.core-competence li {
+    font-weight: bold;
+    list-style: none;
+    display: inline-block;
+    width: calc(100% / 4);
+    text-align: left;
+}
+
+ul {
+    margin-left: -20px;
+}
